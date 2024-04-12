@@ -1,0 +1,76 @@
+:root {
+    --dark: #1F2937;
+    --gray: #E5E7EB;
+    --white: #f9faf8;
+    --accent: #3882F6;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+} p {
+    font-size: 18px;
+}
+
+.button-small-filled {
+    background-color: var(--accent);
+    border: 0;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+#header {
+    background-color: var(--dark);
+    color: var(--white);
+    height:480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} #header h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-top: 6px;
+} #header #nav {
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+} #nav h1 {
+    flex: 1 1 auto;
+} #nav-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: auto;
+    flex: auto 1 auto;
+} #nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+} #nav-links a:visited {
+    color: var(--white);
+} .header-flexitem {
+    width: 50%;
+} .wide-section-flex {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+} h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
