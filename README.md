@@ -1,0 +1,2 @@
+# Landing Page Practice
+This is my attempt at the landing page lesson in the Odin Project (found here: [https://www.theodinproject.com/lessons/foundations-landing-page](https://www.theodinproject.com/lessons/foundations-landing-page)).
