@@ -21,11 +21,7 @@ body {
     font-weight: 900;
     margin-bottom: 36px;
     padding: 0px;
-}
-
-.button-small-filled {
-    background-color: var(--accent);
-    border: 0;
+} button {
     padding: 8px;
     padding-left: 24px;
     padding-right: 24px;
@@ -33,14 +29,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 600;
-    border-radius: 12px;
+    border-radius: 16px;
     margin-top: 14px;
     margin-bottom: 14px;
+} button:hover {
+    border-radius: 10px;
+}
+
+.button-small-filled {
+    background-color: var(--accent);
+    border-width: 0;
+} .button-small-filled:hover {
+    box-shadow: 0px 8px 24px 0.001px #00000088;
+} 
+
+.button-small-hollow {
+    background-color: #00000000;
+    border-width: 2px;
+    border-color: var(--white);
+    border-style: solid;
 }
 
 .section {
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .section-flex {
@@ -101,7 +113,6 @@ body {
 #features {
     padding-top: 0px;
 }
-
 .testimonial {
     display: flex;
     flex-direction: column;
@@ -111,7 +122,6 @@ body {
     width: 180px;
     margin-bottom: 16px;
 }
-
 .testimonial-image {
     object-fit: cover; 
     width: 180px;
@@ -136,4 +146,25 @@ body {
     font-weight: bold;
     font-style: none;
     text-align: right;
+}
+
+#calltoaction {
+    width: 1000px;
+}
+.calltoactionbox {
+    background-color: var(--accent);
+    width: 100%;
+    color: var(--white);
+    border-radius: 12px;
+    padding: 48px;
+    padding-left: 96px;
+    padding-right: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} .calltoactionbox h4 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
