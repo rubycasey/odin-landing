@@ -13,6 +13,14 @@ body {
     margin: auto;
 } p {
     font-size: 18px;
+    margin: 0px;
+} h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 36px;
+    padding: 0px;
 }
 
 .button-small-filled {
@@ -26,6 +34,20 @@ body {
     font-size: 16px;
     font-weight: 600;
     border-radius: 12px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.section {
+    padding-top: 36px;
+}
+
+.section-flex {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 #header {
@@ -73,4 +95,26 @@ body {
     font-size: 48px;
     font-weight: 900;
     margin: 0px;
+}
+
+#features {
+    padding-top: 0px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 16px;
+}
+
+.testimonial-image {
+    object-fit: cover; 
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+    margin: 16px;
 }
